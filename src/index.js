@@ -4,7 +4,8 @@ import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 import 'materialize-css/dist/css/materialize.min.css'
@@ -22,7 +23,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Intro />} />
@@ -33,7 +34,7 @@ ReactDOM.render(
           <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
-    </BrowserRouter>,
+    </HashRouter>,
   </React.StrictMode>,
   document.getElementById('root')
 );
