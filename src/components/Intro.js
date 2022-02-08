@@ -7,7 +7,7 @@ const Intro = () => {
         <div className="intro center content">
             <div className="container">
                 <h1><Link to="/About" style={{ textDecoration: 'none' }}>I'm Justin.</Link></h1>
-                <p class="intro-subtitle">
+                <p className="intro-subtitle">
                     a web developer .
                 </p>
             </div>
