@@ -236,13 +236,13 @@ footer {
  
 
   .work-content {
-    /* padding-top: 175%;
-    padding-bottom: 10%; */
     height: 90%;
+    margin-bottom: 10%
   }
 
   .skills-content {
     height: 80%;
+    margin-bottom: 10%;
   }
 
   .work-container { 
