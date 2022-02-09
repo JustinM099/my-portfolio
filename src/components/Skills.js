@@ -3,8 +3,6 @@ import React from 'react';
 const Skills = () => {
     return <div>
 
-
-        <div className=""></div>
         <div className="center content">
             <div className="card">
                 <div className="skills" id="skills">
