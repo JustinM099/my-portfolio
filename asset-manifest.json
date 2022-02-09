@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/JustinM099/my-portfolio/static/css/main.927e24b1.css",
-    "main.js": "/JustinM099/my-portfolio/static/js/main.863ed1dc.js",
-    "static/js/787.42fde27b.chunk.js": "/JustinM099/my-portfolio/static/js/787.42fde27b.chunk.js",
-    "static/media/profile-image-2021.png": "/JustinM099/my-portfolio/static/media/profile-image-2021.0839728295ce9ef67e35.png",
-    "static/media/cocktail-hour-preview-image.png": "/JustinM099/my-portfolio/static/media/cocktail-hour-preview-image.66c73462e35caefd83c5.png",
-    "static/media/vines.jpg": "/JustinM099/my-portfolio/static/media/vines.eb9a59161f29822ee592.jpg",
-    "static/media/bottles-db-preview.png": "/JustinM099/my-portfolio/static/media/bottles-db-preview.785751738a455003e3bf.png",
-    "static/media/weather-dashboard-link.png": "/JustinM099/my-portfolio/static/media/weather-dashboard-link.00037d091033519fd4cb.png",
-    "static/media/grapes.png": "/JustinM099/my-portfolio/static/media/grapes.c2c2e7fe95d6921d4923.png",
-    "index.html": "/JustinM099/my-portfolio/index.html",
-    "main.927e24b1.css.map": "/JustinM099/my-portfolio/static/css/main.927e24b1.css.map",
-    "main.863ed1dc.js.map": "/JustinM099/my-portfolio/static/js/main.863ed1dc.js.map",
-    "787.42fde27b.chunk.js.map": "/JustinM099/my-portfolio/static/js/787.42fde27b.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.88a8bbc4.css",
+    "main.js": "/my-portfolio/static/js/main.027093d2.js",
+    "static/js/787.42fde27b.chunk.js": "/my-portfolio/static/js/787.42fde27b.chunk.js",
+    "static/media/profile-image-2021.png": "/my-portfolio/static/media/profile-image-2021.0839728295ce9ef67e35.png",
+    "static/media/cocktail-hour-preview-image.png": "/my-portfolio/static/media/cocktail-hour-preview-image.66c73462e35caefd83c5.png",
+    "static/media/vines.jpg": "/my-portfolio/static/media/vines.eb9a59161f29822ee592.jpg",
+    "static/media/bottles-db-preview.png": "/my-portfolio/static/media/bottles-db-preview.785751738a455003e3bf.png",
+    "static/media/weather-dashboard-link.png": "/my-portfolio/static/media/weather-dashboard-link.00037d091033519fd4cb.png",
+    "static/media/grapes.png": "/my-portfolio/static/media/grapes.c2c2e7fe95d6921d4923.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.88a8bbc4.css.map": "/my-portfolio/static/css/main.88a8bbc4.css.map",
+    "main.027093d2.js.map": "/my-portfolio/static/js/main.027093d2.js.map",
+    "787.42fde27b.chunk.js.map": "/my-portfolio/static/js/787.42fde27b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.927e24b1.css",
-    "static/js/main.863ed1dc.js"
+    "static/css/main.88a8bbc4.css",
+    "static/js/main.027093d2.js"
   ]
 }
