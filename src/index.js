@@ -5,7 +5,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  HashRouter
+  HashRouter as Router
 } from "react-router-dom";
 
 import 'materialize-css/dist/css/materialize.min.css'
@@ -23,9 +23,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/" hashType="noslash">
+    <Router basename="/">
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route exact path="/" element={<App />}>
           <Route index element={<Intro />} />
           <Route path="Intro" element={<Intro />} />
           <Route path="About" element={<About />} />
@@ -34,7 +34,7 @@ ReactDOM.render(
           <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
-    </HashRouter>,
+    </Router>,
   </React.StrictMode>,
   document.getElementById('root')
 );
