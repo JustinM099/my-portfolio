@@ -63,7 +63,7 @@ h3, h4, h5 {
 
 body {
   /* padding-top: 70px !important; */
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   margin: 0;
   font-family: 'Spartan', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -236,15 +236,22 @@ footer {
  
 
   .work-content {
-    padding-top: 175%;
-    padding-bottom: 10%;
+    /* padding-top: 175%;
+    padding-bottom: 10%; */
+    height: 90%;
+  }
+
+  .skills-content {
+    height: 80%;
   }
 
   .work-container { 
     display: inline;
   }
 
-
+nav {
+  position: static;
+}
 
   .mobile-social-buttons {
     display: flex;
