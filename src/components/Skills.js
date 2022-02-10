@@ -4,7 +4,7 @@ const Skills = () => {
     return <div>
 
         <div className="center content skills-content">
-            <div className="card">
+            <div className="card z-depth-5">
                 <div className="skills" id="skills">
                     <h2>My Skills</h2>
                     <div className="skill-row">

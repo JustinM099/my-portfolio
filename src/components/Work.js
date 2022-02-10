@@ -6,7 +6,7 @@ const Work = () => {
 
             <h2>My Work</h2>
             <div className="container row work-container">
-                <div className="card work-card col s12 m4">
+                <div className="card work-card col s12 m4 z-depth-5">
                     <div className="work-card-header">
                         <h5>Bottles DB - A Group Project</h5>
                     </div>
@@ -25,7 +25,7 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-                <div className="card work-card col s12 m4">
+                <div className="card work-card col s12 m4 z-depth-5">
                     <div className="work-card-header">
                         <h5>Cocktail Hour - A Group Project</h5>
                     </div>
@@ -44,7 +44,7 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-                <div className="card work-card col s12 m4">
+                <div className="card work-card col s12 m4 z-depth-5">
                     <div className="work-card-header">
                         <h5>Weather Dashboard</h5>
                     </div>

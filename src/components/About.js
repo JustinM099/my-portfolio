@@ -5,7 +5,7 @@ const About = () => {
     return <div>
 
         <div className="center content">
-            <div className="card">
+            <div className="card z-depth-5">
                 <section className="about">
                     <div className="profile" id="profile">
                         <img src={require('../assets/images/profile-image-2021.png')} alt="my profile image"
