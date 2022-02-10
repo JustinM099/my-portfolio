@@ -1,7 +1,12 @@
-import React from 'react';
+import { motion } from 'framer-motion';
 
 const Work = () => {
-    return <div>
+    return <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.5 }}
+>
         <div className="center content work-content">
 
             <h2>My Work</h2>
@@ -67,7 +72,7 @@ const Work = () => {
             </div>
 
         </div>
-    </div>;
+    </motion.div>
 };
 
 export default Work;

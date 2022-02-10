@@ -1,8 +1,12 @@
-import React from 'react';
+import { motion } from 'framer-motion';
 
 const Skills = () => {
-    return <div>
-
+    return <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.5 }}
+>
         <div className="center content skills-content">
             <div className="card z-depth-5">
                 <div className="skills" id="skills">
@@ -31,8 +35,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
-
-    </div>;
+    </motion.div>
 };
 
 export default Skills;

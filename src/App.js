@@ -1,17 +1,18 @@
-import { Outlet, Link } from "react-router-dom";
-
+import { Outlet, useLocation } from "react-router-dom";
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Intro from './components/Intro'
-import About from './components/About'
+import { AnimatePresence } from 'framer-motion'
 
 function App() {
+  const location = useLocation()
   return (
+    <AnimatePresence exitBeforeEnter>
     <div className="App">
       <Header />
-      <Outlet />
+      <Outlet location={location} key={location.pathname} />
       <Footer />
     </div>
+    </AnimatePresence>
   );
 }
 

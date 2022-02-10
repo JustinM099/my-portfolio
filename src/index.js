@@ -5,7 +5,8 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  HashRouter as Router
+  HashRouter as Router,
+  useLocation
 } from "react-router-dom";
 
 import 'materialize-css/dist/css/materialize.min.css'
