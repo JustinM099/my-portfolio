@@ -134,7 +134,7 @@ footer {
 
 .profile-pic {
   display: block;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   height: 300px; 
   margin-left: auto;
   margin-right: auto;
@@ -252,6 +252,9 @@ footer {
 
  @media screen and (max-width: 767px){
  
+  body {
+    height: 100%;
+  }
 
   .work-content {
     height: 90%;
