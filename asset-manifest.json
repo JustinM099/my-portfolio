@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.88a8bbc4.css",
-    "main.js": "/my-portfolio/static/js/main.027093d2.js",
+    "main.css": "/my-portfolio/static/css/main.5df6408b.css",
+    "main.js": "/my-portfolio/static/js/main.ddaa5a77.js",
     "static/js/787.42fde27b.chunk.js": "/my-portfolio/static/js/787.42fde27b.chunk.js",
-    "static/media/profile-image-2021.png": "/my-portfolio/static/media/profile-image-2021.0839728295ce9ef67e35.png",
+    "static/media/profile-image-circle.png": "/my-portfolio/static/media/profile-image-circle.017173f4a9405a7947da.png",
     "static/media/cocktail-hour-preview-image.png": "/my-portfolio/static/media/cocktail-hour-preview-image.66c73462e35caefd83c5.png",
+    "static/media/mosaic-preview-image.jpeg": "/my-portfolio/static/media/mosaic-preview-image.0f9ab3e5001a2aa61af2.jpeg",
     "static/media/vines.jpg": "/my-portfolio/static/media/vines.eb9a59161f29822ee592.jpg",
+    "static/media/tech-blog-screenshot.png": "/my-portfolio/static/media/tech-blog-screenshot.326573f20704726c78b6.png",
     "static/media/bottles-db-preview.png": "/my-portfolio/static/media/bottles-db-preview.785751738a455003e3bf.png",
     "static/media/weather-dashboard-link.png": "/my-portfolio/static/media/weather-dashboard-link.00037d091033519fd4cb.png",
     "static/media/grapes.png": "/my-portfolio/static/media/grapes.c2c2e7fe95d6921d4923.png",
     "index.html": "/my-portfolio/index.html",
-    "main.88a8bbc4.css.map": "/my-portfolio/static/css/main.88a8bbc4.css.map",
-    "main.027093d2.js.map": "/my-portfolio/static/js/main.027093d2.js.map",
+    "main.5df6408b.css.map": "/my-portfolio/static/css/main.5df6408b.css.map",
+    "main.ddaa5a77.js.map": "/my-portfolio/static/js/main.ddaa5a77.js.map",
     "787.42fde27b.chunk.js.map": "/my-portfolio/static/js/787.42fde27b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88a8bbc4.css",
-    "static/js/main.027093d2.js"
+    "static/css/main.5df6408b.css",
+    "static/js/main.ddaa5a77.js"
   ]
 }
