@@ -4,7 +4,7 @@ const Contact = () => {
 
     const validateEmail = (email) => {
         const regex = /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/
-        return regex.test(String(email).toLowerCase());
+        return regex.test(String(email).toLowerCase())
     }
     const validate = (e) => {
         if (!e.target.value.length) {
@@ -15,7 +15,7 @@ const Contact = () => {
     const validateEmailInput = (e) => {
 
         if (e.target.name === 'email') {
-            const validation = validateEmail(e.target.value);
+            const validation = validateEmail(e.target.value)
             if (!validation) {
                 alert('Sorry, your email is invalid.')
             }
