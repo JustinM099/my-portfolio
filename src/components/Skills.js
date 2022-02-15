@@ -35,6 +35,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
+        <br />
     </motion.div>
 };
 

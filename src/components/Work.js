@@ -2,16 +2,15 @@ import { motion } from 'framer-motion';
 
 const Work = () => {
     return <motion.div
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}
-    transition={{ duration: 0.5 }}
->
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+    >
         <div className="center content work-content">
-
             <h2>My Work</h2>
             <div className="container row work-container">
-                <div className="card work-card col s12 m4 z-depth-5">
+                <div className="card work-card col s12 m3 z-depth-5">
                     <div className="work-card-header">
                         <h5>Bottles DB - A Group Project</h5>
                     </div>
@@ -30,7 +29,7 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-                <div className="card work-card col s12 m4 z-depth-5">
+                <div className="card work-card col s12 m3 z-depth-5">
                     <div className="work-card-header">
                         <h5>Cocktail Hour - A Group Project</h5>
                     </div>
@@ -49,7 +48,7 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-                <div className="card work-card col s12 m4 z-depth-5">
+                <div className="card work-card col s12 m3 z-depth-5">
                     <div className="work-card-header">
                         <h5>Weather Dashboard</h5>
                     </div>
@@ -68,9 +67,63 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
+                <div className="card work-card col s12 m3 z-depth-5">
+                    
+                    <a href="https://github.com/JustinM099/social-media-backend">
+                        <div className="work-card-header">
+                        <h5>Social Media Back-End</h5>
+                    </div>
+                    </a>
+                    <div>
+                        <a href="https://github.com/JustinM099/social-media-backend">
+                            <img
+                                className="link-icon"
+                                src={require("../assets/images/GitHub-Mark-120px-plus.png")}
+                                alt="Github icon" />
+                        </a>
+                    </div>
+                </div>
+                <div className="card work-card col s12 m3 z-depth-5">
+                    <div className="work-card-header">
+                        <h5>Tech Blog</h5>
+                    </div>
+                    <a href="https://incredible-tech-blog.herokuapp.com/">
+                        <img
+                            className="work-preview"
+                            src={require("../assets/images/tech-blog-screenshot.png")}
+                            alt="a preview image for a tech blog" />
+                    </a>
+                    <div>
+                        <a href="https://github.com/JustinM099/tech-blog">
+                            <img
+                                className="link-icon"
+                                src={require("../assets/images/GitHub-Mark-120px-plus.png")}
+                                alt="Github icon" />
+                        </a>
+                    </div>
+                </div>
+                <div className="card work-card col s12 m3 z-depth-5">
+                    <div className="work-card-header">
+                        <h5>Mosaic Learning Center</h5>
+                    </div>
+                    <a href="https://justinm099.github.io/mosaic-learning-center/">
+                        <img
+                            className="work-preview"
+                            src={require("../assets/images/mosaic-preview-image.jpeg")}
+                            alt="a preview image for the mosaic learning center website" />
+                    </a>
+                    <div>
+                        <a href="https://github.com/JustinM099/mosaic-learning-center">
+                            <img
+                                className="link-icon"
+                                src={require("../assets/images/GitHub-Mark-120px-plus.png")}
+                                alt="Github icon" />
+                        </a>
+                    </div>
+                </div>
 
             </div>
-
+            <br />
         </div>
     </motion.div>
 };
