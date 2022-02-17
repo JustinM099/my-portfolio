@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
 
 const About = () => {
     return <motion.div
@@ -8,6 +9,7 @@ const About = () => {
         transition={{ duration: 0.5 }}
     >
             <div className="center content">
+            <Link to="/Skills" style={{ textDecoration: 'none' }}>
                 <div className="card z-depth-5">
                     <section className="about">
                         <div className="profile" id="profile">
@@ -20,6 +22,7 @@ const About = () => {
                         </div>
                     </section>
                 </div>
+            </Link>
             </div>
     </motion.div>
 };

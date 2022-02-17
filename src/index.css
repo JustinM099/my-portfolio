@@ -272,6 +272,11 @@ footer {
   height: 90%;
 }
 
+.contact-content {
+  height: 85%;
+  margin-bottom: 15%;
+}
+
  @media screen and (max-width: 767px){
  
   body {
@@ -281,6 +286,11 @@ footer {
   .work-content {
     height: 90%;
     margin-bottom: 10%
+  }
+
+  .contact-content {
+    height: 85%;
+    margin-bottom: 15%
   }
 
   .skills-content {
