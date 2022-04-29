@@ -12,7 +12,7 @@ const Work = () => {
             <div className="container row work-container">
                 <div className="card work-card col s12 m3 z-depth-5">
                     <div className="work-card-header">
-                        <h5>Bottles DB - A Group Project</h5>
+                        <h5>Bottles DB</h5>
                     </div>
                     <a href="https://bottles-db.herokuapp.com/">
                         <img
@@ -31,7 +31,7 @@ const Work = () => {
                 </div>
                 <div className="card work-card col s12 m3 z-depth-5">
                     <div className="work-card-header">
-                        <h5>Cocktail Hour - A Group Project</h5>
+                        <h5>Cocktail Hour</h5>
                     </div>
                     <a href="https://lyssg2.github.io/cocktail-hour/index.html">
                         <img

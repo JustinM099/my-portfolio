@@ -14,7 +14,7 @@ const Skills = () => {
                     <div className="skills" id="skills">
                         <h2>My Skills</h2>
                         <div className="skill-row">
-                            <img className="wine-glasses" src="https://image.flaticon.com/icons/png/512/3751/3751571.png" alt="wine-glasses" />
+                            <img className="wine-glasses" src={require("../assets/images/wine-glasses.png")} alt="wine-glasses" />
                             <h3>Wine and Spirits</h3>
                             <p className="wine-row-description">I started in the wine and spirits industry in 2007, taking a part time job at
                                 the incredible Esquin Wine Merchants in south Seattle.
@@ -27,7 +27,7 @@ const Skills = () => {
                         <br />
 
                         <div className="skill-row">
-                            <img className="technology" src="https://image.flaticon.com/icons/png/512/2920/2920249.png" alt="technology" />
+                            <img className="technology" src={require("../assets/images/technology.png")} alt="technology" />
                             <h3 className="web-dev-title">Web Development</h3>
                             <p className="technology-row-description">Recently, I've decided to change careers and embark upon a journey into
                                 the world of web development.
