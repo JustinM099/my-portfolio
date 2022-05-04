@@ -1,7 +1,13 @@
 import { motion } from 'framer-motion'
-import { Container } from 'react-materialize'
+import React, { useState, useEffect } from 'react';
+import StripeCheckout from "react-stripe-checkout";
 
 const Contact = () => {
+
+    async function handleToken(token, addresses) {
+        console.log('☕️ - damn fine coffee')
+    }
+
 
     const validateEmail = (email) => {
         const regex = /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/
@@ -45,7 +51,7 @@ const Contact = () => {
                     <p>Love wine? Love spirits? Love web development? Let's drink and develop together!</p>
 
                     <div className="button-container">
-                        <a className="BUTTON_EVA" href="./assets/Justin Meredith - Resume.pdf">MY RESUME</a>
+                        <a className="BUTTON_EVA" href="https://drive.google.com/file/d/1n0j8gOMl5Ydy9xfE4TAykyHDKLZbAYFP/view?usp=sharing">MY RESUME</a>
                         <a className="BUTTON_EVA" href="mailto:justinm099@mac.com">EMAIL ME</a>
 
                         <a className="BUTTON_EVA"
@@ -57,6 +63,7 @@ const Contact = () => {
 
 
             </div>
+
         </div>
     </motion.div>
 };
