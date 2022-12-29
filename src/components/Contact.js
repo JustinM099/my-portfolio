@@ -51,7 +51,7 @@ const Contact = () => {
                     <p>Love wine? Love spirits? Love web development? Let's drink and develop together!</p>
 
                     <div className="button-container">
-                        <a className="BUTTON_EVA" href="https://drive.google.com/file/d/1n0j8gOMl5Ydy9xfE4TAykyHDKLZbAYFP/view?usp=sharing">MY RESUME</a>
+                        <a className="BUTTON_EVA" href="https://docs.google.com/document/d/1la-RN1TT9vTcX31zQV3naSdWWg0NGfNrnGLmjX2JSgE/edit?usp=sharing">MY RESUME</a>
                         <a className="BUTTON_EVA" href="mailto:justinm099@mac.com">EMAIL ME!</a>
 
                         <a className="BUTTON_EVA"
