@@ -52,7 +52,7 @@ const Contact = () => {
 
                     <div className="button-container">
                         <a className="BUTTON_EVA" href="https://drive.google.com/file/d/1n0j8gOMl5Ydy9xfE4TAykyHDKLZbAYFP/view?usp=sharing">MY RESUME</a>
-                        <a className="BUTTON_EVA" href="mailto:justinm099@mac.com">EMAIL ME</a>
+                        <a className="BUTTON_EVA" href="mailto:justinm099@mac.com">EMAIL ME!</a>
 
                         <a className="BUTTON_EVA"
                             href="tel:12068615635"
