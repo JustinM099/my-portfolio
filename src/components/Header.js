@@ -6,7 +6,9 @@ const Header = () => {
       <Link to="/" className="left">
         <img
           src={require("../assets/images/grapes.png")}
-          style={{ height: '35px' }} />
+          style={{ height: '35px' }}
+          alt="grapes"
+        />
       </Link>
       <ul id="nav-mobile" className="right">
         <li><Link to="/About">About Me</Link></li>

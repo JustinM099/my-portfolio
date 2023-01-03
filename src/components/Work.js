@@ -10,15 +10,34 @@ const Work = () => {
         <div className="center content work-content">
             <h2>My Work</h2>
             <div className="container row work-container">
+            <div className="card work-card col s12 m3 z-depth-5">
+                    <div className="work-card-header">
+                        <h5>Bottles DB v2</h5>
+                    </div>
+                    <a href="https://bottles-db-mern.herokuapp.com/">
+                        <img
+                            className="work-preview"
+                            src={require("../assets/images/bottles-db-mern-screenshot.png")}
+                            alt="a preview for bottles db mern" />
+                    </a>
+                    <div>
+                        <a href="https://github.com/JustinM099/bottlesDB">
+                            <img
+                                className="link-icon"
+                                src={require("../assets/images/GitHub-Mark-120px-plus.png")}
+                                alt="Github icon" />
+                        </a>
+                    </div>
+                </div>
                 <div className="card work-card col s12 m3 z-depth-5">
                     <div className="work-card-header">
-                        <h5>Bottles DB</h5>
+                        <h5>Bottles DB v1</h5>
                     </div>
                     <a href="https://bottles-db.herokuapp.com/">
                         <img
                             className="work-preview"
                             src={require("../assets/images/bottles-db-preview.png")}
-                            alt="a preview image for bottles db" />
+                            alt="a preview for bottles db" />
                     </a>
                     <div>
                         <a href="https://github.com/JustinM099/wine-cellar-tracker">
@@ -37,7 +56,7 @@ const Work = () => {
                         <img
                             className="work-preview"
                             src={require("../assets/images/cocktail-hour-preview-image.png")}
-                            alt="a preview image for a cocktail ingredients site" />
+                            alt="a preview for a cocktail ingredients site" />
                     </a>
                     <div>
                         <a href="https://github.com/lyssg2/cocktail-hour">
@@ -56,26 +75,10 @@ const Work = () => {
                         <img
                             className="work-preview"
                             src={require("../assets/images/weather-dashboard-link.png")}
-                            alt="a preview image for the mosaic learning center website" />
+                            alt="a preview for the mosaic learning center website" />
                     </a>
                     <div>
                         <a href="https://github.com/JustinM099/weather-dashboard">
-                            <img
-                                className="link-icon"
-                                src={require("../assets/images/GitHub-Mark-120px-plus.png")}
-                                alt="Github icon" />
-                        </a>
-                    </div>
-                </div>
-                <div className="card work-card col s12 m3 z-depth-5">
-                    
-                    <a href="https://github.com/JustinM099/social-media-backend">
-                        <div className="work-card-header">
-                        <h5>Social Media Back-End</h5>
-                    </div>
-                    </a>
-                    <div>
-                        <a href="https://github.com/JustinM099/social-media-backend">
                             <img
                                 className="link-icon"
                                 src={require("../assets/images/GitHub-Mark-120px-plus.png")}
@@ -91,7 +94,7 @@ const Work = () => {
                         <img
                             className="work-preview"
                             src={require("../assets/images/tech-blog-screenshot.png")}
-                            alt="a preview image for a tech blog" />
+                            alt="a preview for a tech blog" />
                     </a>
                     <div>
                         <a href="https://github.com/JustinM099/tech-blog">
@@ -110,7 +113,7 @@ const Work = () => {
                         <img
                             className="work-preview"
                             src={require("../assets/images/mosaic-preview-image.jpeg")}
-                            alt="a preview image for the mosaic learning center website" />
+                            alt="a preview for the mosaic learning center website" />
                     </a>
                     <div>
                         <a href="https://github.com/JustinM099/mosaic-learning-center">
