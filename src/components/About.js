@@ -10,7 +10,7 @@ const About = () => {
     >
             <div className="center content">
             <Link to="/Skills" style={{ textDecoration: 'none' }}>
-                <div className="card z-depth-5">
+                <div className="card content-card z-depth-5">
                     <section className="about">
                         <div className="profile" id="profile">
                             <img src={require('../assets/images/profile-image-circle.png')} alt="my profile"

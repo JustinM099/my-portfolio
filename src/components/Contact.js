@@ -43,7 +43,7 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
     >
         <div className="center content">
-            <div className="card z-depth-5">
+            <div className="card content-card z-depth-5">
 
                 <section className="contact-me" id="contact">
                     <h2>Get In Touch</h2>

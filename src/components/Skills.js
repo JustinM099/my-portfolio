@@ -10,7 +10,7 @@ const Skills = () => {
     >
         <div className="center content skills-content">
             <Link to="/Work" style={{ textDecoration: 'none' }}>
-                <div className="card z-depth-5">
+                <div className="card content-card z-depth-5">
                     <div className="skills" id="skills">
                         <h2>My Skills</h2>
                         <div className="skill-row">
